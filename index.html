@@ -7,14 +7,14 @@
     <a-scene embedded arjs='patternRatio: 0.60'>
       
         <a-assets>
-          <a-asset id="golf" src="golf.fbx"></a-asset>
+          <a-asset id="golf" src="golftesting.glb"></a-asset>
         </a-assets>
       
       
       <a-marker preset="custom" type="pattern" url="pattern-golf.patt">
           <a-entity
                   animation-mixer
-                  fbx-model="#golf"
+                  gltf-model="#golf"
                   scale="1 1 1"
                   position="0 0 0"
                   rotation="0 0 0"
